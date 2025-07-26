@@ -2,9 +2,9 @@
 Sitio de Proyecto de Egreso de la Cooperativa de Vivienda BINECOOP (Perteneciente a Tecnósfera)
 
 # Estructura Importante
-El **AdminPanel** es el ***BACKOFFICE***
-TODO LO RELACIONADO AL ***FRONTEND O LANDING PAGE*** SE PUEDE ENCONTRAR EN **BineCoop_LandingPage**
-**Tecnosfera_LandingPage** ES EL FRONTEND DE LA PÁGINA DE LA EMPRESA, ES UN ***EXTRA***
+El **AdminPanel** es el ***BACKOFFICE***<br>
+TODO LO RELACIONADO AL ***FRONTEND O LANDING PAGE*** SE PUEDE ENCONTRAR EN **BineCoop_LandingPage**<br>
+**Tecnosfera_LandingPage** ES EL FRONTEND DE LA PÁGINA DE LA EMPRESA, ES UN ***EXTRA***<br>
 
 
 
