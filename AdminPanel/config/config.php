@@ -1,7 +1,7 @@
 <?php
 // config/config.php
 
-// Verificación mejorada que permite inclusión desde otros archivos
+// Verificación 
 if (php_sapi_name() !== 'cli' && 
     empty($GLOBALS['allowed_config_access']) && 
     basename($_SERVER['SCRIPT_FILENAME']) === 'config.php') {
@@ -18,6 +18,4 @@ define('DB_NAME', ' if0_39215471_admin_panel');
 define('DB_USER', 'if0_39215471');
 define('DB_PASS', 'Raeaeae');
 
-// Configuración JWT (si usas tokens)
-// define('JWT_SECRET', 'otra_clave_secreta_789012');
 ?>
