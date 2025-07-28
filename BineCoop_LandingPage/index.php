@@ -565,7 +565,7 @@
                 <button class="nav-btn" onclick="location.href='./quienes_somos.php'">Quiénes Somos</button>
                 <button class="nav-btn" onclick="location.href='./viviendas.php'">Viviendas</button>
                 <button class="nav-btn" onclick="location.href='./faq.php'">Preguntas Frecuentes</button>
-                <button class="nav-btn login-btn">Login</button>
+                <button class="nav-btn login-btn" onclick="location.href='./login.php'">Login</button>
             </nav>
         </div>
     </header>
