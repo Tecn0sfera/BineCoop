@@ -2,7 +2,7 @@
 class Database {
     private $host = 'sql211.infinityfree.com';
     private $user = 'if0_39215471';
-    private $pass = 'PLACEHOLDER';
+    private $pass = 'RockGuidoNetaNa';
     private $name = 'if0_39215471_admin_panel';
     private $conn;
     

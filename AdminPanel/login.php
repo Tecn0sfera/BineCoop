@@ -5,7 +5,10 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
+$GLOBALS['allowed_config_access'] = true;
+require __DIR__ . '/config/config.php';
 require __DIR__ . '/config/database.php';
+
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     try {
@@ -111,7 +114,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     </div>
     
     <div class="form-footer">
-        <p>¿No tienes una cuenta? <a href="register.php">Regístrate aquí</a></p>
+          <!-- <p>¿No tienes una cuenta? <a href="register.php">Regístrate aquí</a></p> -->
     </div>
 </form>
     </div>

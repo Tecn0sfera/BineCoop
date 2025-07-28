@@ -42,6 +42,21 @@
             </ul>
           </li>
 
+
+            <!-- Añadir opción de administración -->
+            <li class="mb-1">
+                <a href="#admin-section" class="block p-2 hover:bg-gray-200 rounded flex items-center" 
+                   onclick="document.getElementById('admin-section').classList.toggle('hidden')">
+                    <i class="fas fa-user-shield mr-2"></i>
+                    <span>Administración</span>
+                    <i class="fas fa-chevron-down ml-auto"></i>
+                </a>
+                <ul id="admin-section" class="hidden pl-4">
+                    <li><a href="#pending-approval" class="block p-2 hover:bg-gray-200 rounded">Aprobación Visitantes</a></li>
+                    <li><a href="admin_users.php" class="block p-2 hover:bg-gray-200 rounded">Gestión de Usuarios</a></li>
+                </ul>
+            </li>
+
           <!-- Viviendas -->
           <li x-data="{ open: false }">
             <button @click="open = !open" class="flex items-center w-full px-3 py-2 rounded hover:bg-indigo-100">
