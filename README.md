@@ -10,7 +10,7 @@ TODO LO RELACIONADO AL ***FRONTEND O LANDING PAGE*** SE PUEDE ENCONTRAR EN **Bin
 
 
 # To-Do List:
-**Mejorar el DER: Integrar al Administrador, contraseña para el socio y la relación de Horas Trabajadas**
+**Mejorar el DER: Integrar al Administrador, contraseña para el socio y la relación de Horas Trabajadas**<br>
 **Crear un Dashboard de Gestión para el Cooperativista**: Proceso 0%<br>
 **Crear un Admin Panel**: Proceso 95%<br>
 **Mejorar el sistema de la cooperativa respecto a la obtención de viviendas**: Proceso 50%<br>
