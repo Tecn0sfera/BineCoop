@@ -13,7 +13,7 @@ if (php_sapi_name() !== 'cli' &&
 require_once __DIR__ . '/../env_loader.php';
 
 // Clave API para autenticación con el servidor B
-define('ADMIN_API_KEY', env('ADMIN_API_KEY', '86BB7168480F84974EB6599F2175AB765CBC1BF8E2D435A1ECE32740CA74F113'));
+define('ADMIN_API_KEY', env('ADMIN_API_KEY', ''));
 
 // Configuración de la base de datos
 define('DB_HOST', env('DB_HOST', 'localhost'));
@@ -24,7 +24,7 @@ define('DB_PORT', env('DB_PORT', '3306'));
 define('DB_CHARSET', env('DB_CHARSET', 'utf8mb4'));
 
 // Configuración JWT (si usas tokens)
-define('JWT_SECRET', env('JWT_SECRET', '86BB7168480F84974EB6599F2175AB765CBC1BF8E2D435A1ECE32740CA74F113'));
+define('JWT_SECRET', env('JWT_SECRET', ''));
 
 // Configuración de entorno
 define('APP_ENV', env('APP_ENV', 'development'));
