@@ -7,8 +7,7 @@ El **AdminPanel** es el ***BACKOFFICE***<br>
 TODO LO RELACIONADO AL ***FRONTEND O LANDING PAGE*** SE PUEDE ENCONTRAR EN **BineCoop_LandingPage**<br>
 **Tecnosfera_LandingPage** ES EL FRONTEND DE LA PÁGINA DE LA EMPRESA, ES UN ***EXTRA***<br>
 
-
+EN PROYECTO BINECOOP GITHUB SE ENCUENTRA EL CODIGO ACTUAL
 
 # To-Do List:
-**Adaptar el código a las versiones: PHP 8 y MySQL 8 funcionales en Rocky Linux 8**: Proceso 0%<br>
-**Crear una Documentación correspondiente a este sitio web**: Proceso 0%<br>
+**Crear una Documentación correspondiente a este sitio web**: Proceso 95%<br>
