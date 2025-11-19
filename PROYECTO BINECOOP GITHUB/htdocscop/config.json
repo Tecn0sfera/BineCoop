@@ -1,0 +1,23 @@
+﻿{
+    "htdocscop":  {
+                      "DB_HOST":  "sql211.infinityfree.com",
+                      "DB_PORT":  "3306",
+                      "DB_NAME":  "if0_39215471_admin_panel",
+                      "DB_USER":  "if0_39215471",
+                      "DB_PASS":  "RockGuidoNetaNa",
+                      "ADMIN_API_KEY":  "0D011CCD7B7BEFFF6C3242416C520B32815804819397BD2CCA6D2B67981B3532",
+                      "JWT_SECRET":  "86BB7168480F84974EB6599F2175AB765CBC1BF8E2D435A1ECE32740CA74F113"
+                  },
+    "htdocspanel":  {
+                        "DB_HOST":  "sql211.infinityfree.com",
+                        "DB_PORT":  "3306",
+                        "DB_NAME":  "if0_39215471_admin_panel",
+                        "DB_USER":  "if0_39215471",
+                        "DB_PASS":  "RockGuidoNetaNa",
+                        "DB_CHARSET":  "utf8mb4",
+                        "ADMIN_API_KEY":  "0D011CCD7B7BEFFF6C3242416C520B32815804819397BD2CCA6D2B67981B3532",
+                        "JWT_SECRET":  "86BB7168480F84974EB6599F2175AB765CBC1BF8E2D435A1ECE32740CA74F113",
+                        "APP_ENV":  "development",
+                        "DISPLAY_ERRORS":  "false"
+                    }
+}
