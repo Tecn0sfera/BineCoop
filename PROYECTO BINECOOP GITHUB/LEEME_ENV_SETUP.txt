@@ -1,0 +1,54 @@
+===============================================
+CONFIGURACIÓN DE VARIABLES DE ENTORNO (.env)
+===============================================
+
+Este proyecto ahora utiliza un archivo .env para gestionar las variables de 
+configuración, similar a como funciona en htdocspanel.
+
+PASOS PARA CONFIGURAR:
+
+1. Crear un archivo llamado ".env" en la carpeta htdocscop
+
+2. Copiar el siguiente contenido y ajustar los valores según tu entorno:
+
+-------------------------------------------
+# Configuración de Base de Datos
+DB_HOST=sql211.infinityfree.com
+DB_PORT=3306
+DB_NAME=if0_39215471_admin_panel
+DB_USER=if0_39215471
+DB_PASS=RockGuidoNetaNa
+
+# Clave API para autenticación
+ADMIN_API_KEY=isec5a931d2396eac98577583c22d783c2d50c054e1fe785855331208a70871893
+-------------------------------------------
+
+3. Asegurarse de que el archivo .env tenga permisos adecuados (no debería ser 
+   accesible públicamente desde el navegador).
+
+4. Si el archivo .env no existe, el sistema usará valores por defecto (no 
+   recomendado para producción).
+
+NOTAS IMPORTANTES:
+
+- El archivo .env NO debe ser subido al repositorio Git (debe estar en .gitignore)
+- Los valores en el archivo .env tienen prioridad sobre los valores por defecto
+- Las variables se cargan automáticamente cuando se incluye env_loader.php
+- La función env() se puede usar para obtener valores: env('DB_HOST', 'localhost')
+
+ARCHIVOS MODIFICADOS:
+
+- env_loader.php: Creado para cargar variables desde .env
+- db.php: Modificado para usar variables de entorno
+- config.php: Modificado para usar variables de entorno y corregido espacio extra en DB_NAME
+- dashboard.php: Corregida configuración duplicada de errores
+
+ESTRUCTURA:
+
+htdocscop/
+  ├── .env (crear este archivo)
+  ├── env_loader.php (carga variables de entorno)
+  ├── db.php (usa variables de entorno)
+  ├── config.php (usa variables de entorno)
+  └── ...
+

@@ -1,0 +1,1 @@
+Tengo el  JWT_SECRET, está buscando el login.php de htdocscop, el config.php donde se contiene eso en el mismo directorio de si mismo? el JWT_secret ya se encuentra en la carpeta htdocscop

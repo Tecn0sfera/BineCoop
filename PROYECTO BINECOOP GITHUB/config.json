@@ -1,0 +1,23 @@
+﻿{
+    "htdocscop":  {
+                      "DB_HOST":  "",
+                      "DB_PORT":  "3306",
+                      "DB_NAME":  "if0_39215471_admin_panel",
+                      "DB_USER":  "",
+                      "DB_PASS":  "",
+                      "ADMIN_API_KEY":  "",
+                      "JWT_SECRET":  ""
+                  },
+    "htdocspanel":  {
+                        "DB_HOST":  "",
+                        "DB_PORT":  "3306",
+                        "DB_NAME":  "",
+                        "DB_USER":  "",
+                        "DB_PASS":  "",
+                        "DB_CHARSET":  "utf8mb4",
+                        "ADMIN_API_KEY":  "",
+                        "JWT_SECRET":  "",
+                        "APP_ENV":  "development",
+                        "DISPLAY_ERRORS":  "false"
+                    }
+}

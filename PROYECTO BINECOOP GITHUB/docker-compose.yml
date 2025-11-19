@@ -1,0 +1,50 @@
+version: "3.9"
+services:
+  web:
+    build: .
+    container_name: php-apache-web
+    ports:
+      - "8080:80"
+    volumes:
+      - ./:/var/www/html:rw
+    environment:
+      # Ajusta si necesitas zona horaria
+      - TZ=UTC
+    dns:
+      - 8.8.8.8
+      - 8.8.4.4
+      - 1.1.1.1
+    dns_search:
+      - .
+    depends_on:
+      - db
+    restart: unless-stopped
+    networks:
+      - binecoop-network
+
+  db:
+    image: mysql:8.0
+    container_name: mysql-binecoop
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: root_password_change_me
+      MYSQL_DATABASE: if0_39215471_admin_panel
+      MYSQL_USER: if0_39215471
+      MYSQL_PASSWORD: RockGuidoNetaNa
+      TZ: UTC
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./db_cooperativa.sql:/docker-entrypoint-initdb.d/01_cooperativa.sql
+      - ./db_admin_panel.sql:/docker-entrypoint-initdb.d/02_admin_panel.sql
+    restart: unless-stopped
+    networks:
+      - binecoop-network
+    command: --default-authentication-plugin=mysql_native_password --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
+
+networks:
+  binecoop-network:
+    driver: bridge
+
+volumes:
+  mysql_data:
